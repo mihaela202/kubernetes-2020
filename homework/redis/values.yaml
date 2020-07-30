@@ -1,0 +1,11 @@
+# Default values for redis.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+namespace: web
+
+image:
+  repository: redis
+  tag: 6
+
+port: 9090
+protocol: TCP

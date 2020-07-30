@@ -1,0 +1,13 @@
+# Default values for nginx.
+namespace: test
+image:
+  repository: nginx
+  tag: 1
+resources:
+  requests: 
+    cpu:  "200m"
+    memory: " 1Gi"
+  limits:
+     cpu: "200m"
+     memory:  "1Gi"
+
